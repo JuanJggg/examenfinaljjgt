@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    color: orangered;
+}
+img{
+    width: 78px;
+    height: 78px;
+}
+#Tabla{
+    margin: 150px auto;
+    width: 600px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+th,tr{
+    border: solid 1px white;
+    padding: 20px;
+}
+thead{
+    background-color: orangered;
+    color: black;
+    border-bottom: solid 5px;
+}
+tr:hover td{
+    background-color:rgba(255, 68, 0, 0.584);
+    color: black;
+}

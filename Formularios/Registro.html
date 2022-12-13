@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Registro.css">
+    <title>Registro</title>
+</head>
+<body>
+    <div class="Registro">
+        <a href="../Formularios/Formularios.html">
+            <button class="regresarinicio">
+                <img src="../Img/flechaatras-300x250.png" alt="Regresar al inicio de sesion" width="20px" height="20px">
+            </button>
+        </a>
+        <h1>Registro</h1>
+        <form action="post" id="formularioregistro">
+            <div class="createUsername">
+                <input type="text" id="crearusuario" required name="nombreusuario">
+                <label class="lnameusername">Crear usuario</label>
+            </div>
+            <div class="createUsername">
+                <input type="password" required name="contraseñacrear">
+                <label class="lnameusername">Crear Contraseña</label>
+            </div>
+            <div class="createUsername">
+                <input type="text" required="@" name="gmailcrear">
+                <label class="lnameusername">Ingrese su correo electronico</label>
+            </div>
+            <div class="createUsername">
+                <input type="datetime-local" required name="fechanacimiento">
+                <label class="lnameusername1">Ingrese su fecha de nacimiento</label>
+            </div>
+            <div class="content_btn">
+                <input class="btn_login" type="submit" value="Registrarme">
+           </div>
+        </form>
+    </div>
+    <script src="../JS/jquery-3.6.1.min.js"></script>
+    <script src="../JS/jquery.validate.min.js"></script>
+    <script src="../JS/Funciones1.js"></script>
+</body>
+</html>
