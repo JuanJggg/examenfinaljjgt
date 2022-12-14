@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesion</title>
+    <link rel="stylesheet" href="../CSS/Formularios.css">
+</head>
+<body>
+    <div class="Formulario">
+        <a href="../Index/Index.html">
+            <button class="regresar">
+                <img src="../Img/flechaatras-300x250.png" alt="Regresar" width="20px" height="20px">
+            </button>
+        </a>
+        <h1>Inicio de Sesion</h1>
+        <form method="post" id="formulario">
+            <div class="Username">
+                <input type="text" id="usuario" required name="nombres">
+                <label class="lname">Nombre del usuario</label>
+            </div>
+            <div class="Username">
+                <input type="password" required name="contraseña">
+                <label class="lname">Contraseña</label>
+            </div>
+            <div class="Recordar">¿Olvido su Contraseña?</div>
+            <div class="content_btn">
+                 <input class="btn_login" type="submit" value="Iniciar Sesion">
+            </div>
+            <div class="Registro">
+                Quiero hacer el <a href="../Formularios/Registro.html">Registro</a>
+            </div>
+        </form>
+    </div>
+    <script src="../JS/jquery-3.6.1.min.js"></script>
+    <script src="../JS/jquery.validate.min.js"></script>
+    <script src="../JS/Funciones.js"></script>
+</body>
+</html>
